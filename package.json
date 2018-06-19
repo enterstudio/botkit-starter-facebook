@@ -4,16 +4,19 @@
   "description": "A starter kit for building a custom Facebook Messenger bot with Botkit Studio",
   "main": "bot.js",
   "scripts": {
-      "start": "node bot.js"
+    "start": "node bot.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
-    "botkit": "^0.5",
-    "dashbot": "0.7.4",
+    "botkit": "^0.6.11",
+    "dashbot": "9.0.0",
     "debug": "^2.6.0",
     "express": "^4.14.0",
     "request": "^2.79.0",
-    "wordfilter": "^0.2.6"
+    "wordfilter": "^0.2.6",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {},
   "repository": {
@@ -31,5 +34,6 @@
     "Messenger"
   ],
   "author": "ben@howdy.ai",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
