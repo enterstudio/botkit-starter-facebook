@@ -1,0 +1,104 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - dashbot > request-promise > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > async > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/internal-plugin-wdm > @ciscospark/http-core > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - dashbot > request > form-data > async > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/storage-adapter-local-storage > @ciscospark/spark-core > @ciscospark/http-core > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > twilio > request > form-data > async > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/internal-plugin-wdm > @ciscospark/http-core > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/storage-adapter-local-storage > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/spark-core > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/spark-core > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/storage-adapter-local-storage > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-logger > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/internal-plugin-wdm > @ciscospark/http-core > @ciscospark/common > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-browser > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/common > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-metrics > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-authorization > @ciscospark/plugin-authorization-node > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > @ciscospark/http-core > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-state > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > @ciscospark/http-core > @ciscospark/common > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-events > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
+    - botkit > ciscospark > @ciscospark/plugin-phone > @ciscospark/internal-plugin-locus > @ciscospark/internal-plugin-mercury > @ciscospark/internal-plugin-feature > @ciscospark/internal-plugin-wdm > @ciscospark/spark-core > ampersand-collection > ampersand-class-extend > lodash:
+        patched: '2019-07-04T08:33:00.320Z'
